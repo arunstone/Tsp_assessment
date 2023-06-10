@@ -6,6 +6,7 @@ def LandingPage(request):
     return render(request,'user_login/LandingPage.html')
 def RegisterPage(request):
     if request.method=='POST':
+        print("hello")
         name=request.POST['name']
         email=request.POST['email']
         number=request.POST['mobile']
