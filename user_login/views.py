@@ -5,7 +5,7 @@ from django.http import HttpResponse
 def LandingPage(request):
     return render(request,'user_login/LandingPage.html')
 def RegisterPage(request):
-    print("hiiiiiii")
+    print("hi")
     if request.method=='POST':
         
         name=request.POST['name']
